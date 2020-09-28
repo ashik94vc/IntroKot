@@ -1,0 +1,42 @@
+package ttl.introkot.course._6Conventions
+
+/**
+ * @author whynot
+ */
+
+/*
+Operators that can be overloaded in Kotlin
+
+Unary operations
++a    a.unaryPlus()
+-a    a.unaryMinus()
+!a    a.not()
+a++   a.inc()
+a–    a.dec()
+
+Binary operations
+a + b    a.plus(b)
+a – b    a.minus(b)
+a * b    a.times(b)
+a / b    a.div(b)
+a % b    a.mod(b)
+a..b     a.rangeTo(b)
+a in b   b.contains(a)
+a !in b  !b.contains(a)
+a += b   a.plusAssign(b)
+a -= b   a.minusAssign(b)
+a *= b   a.timesAssign(b)
+a /= b   a.divAssign(b)
+a %= b   a.modAssign(b)
+
+
+Operation on Array like structures
+
+a[i]              a.get(i)
+a[i, j]           a.get(i, j)
+a[i_1, …, i_n]    a.get(i_1, …, i_n)
+
+a[i] = b          a.set(i, b)
+a[i, j] = b       a.set(i, j, b)
+a[i_1, …, i_n] = b   a.set(i_1, …, i_n, b)
+*/
